@@ -1,0 +1,4 @@
+150
+SimpleGoal:Share message,Share a message with someone this week,50,True
+EternalGoal:Go to the temple ,Go to the temple once a week,150
+ChecklistGoal:Tithing,Pay tithing each month,75,500,12,3
