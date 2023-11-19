@@ -128,11 +128,15 @@ class Program
                                 {
                                     SimpleGoal simpleGoal = new SimpleGoal(bool.Parse(values[3]),int.Parse(values[2]),values[0],values[1]);
                                     goals.Add(simpleGoal);
-                                } else if (type == "EternalGoal")
+                                } 
+                                
+                                else if (type == "EternalGoal")
                                 {
                                     EternalGoal eternalGoal = new EternalGoal(int.Parse(values[2]),values[0],values[1]);
                                     goals.Add(eternalGoal);
-                                } else if (type == "ChecklistGoal")
+                                } 
+                                
+                                else if (type == "ChecklistGoal")
                                 {
                                     ChecklistGoal checklistGoal = new ChecklistGoal(int.Parse(values[4]),int.Parse(values[5]),int.Parse(values[3]),int.Parse(values[2]),values[0],values[1]);
                                     goals.Add(checklistGoal);
